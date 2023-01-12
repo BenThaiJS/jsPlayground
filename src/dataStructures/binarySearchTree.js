@@ -4,7 +4,7 @@ What is tree?
 A data structure that consists of nodes of a parent/child relationship
 */
 
-class Node {
+export class Node {
   constructor(value) {
     this.value = value;
     this.left = null;
@@ -12,7 +12,7 @@ class Node {
   }
 }
 
-class binarySearchTree {
+export class binarySearchTree {
   constructor() {
     this.root = null;
   }

@@ -24,29 +24,31 @@
 //   mostDigits,
 //   radixSort,
 // } from "./algorithms/sorting";
-import "./app.css";
+// import { search } from "./problemSolvingPatterns/divideAndConquer";
+// import {same, validAnagram} from "./problemSolvingPatterns/frequencyCounter";
+// import { countUniqueValues, sumZero } from "./problemSolvingPatterns/multiplePointers";
+// import { maxSubArraySum } from "./problemSolvingPatterns/slidingWindow";
+// import { MaxBinaryHeap } from "./dataStructures/binaryHeap";
+// import { binarySearchTree } from "./dataStructures/binarySearchTree";
+// import { PriorityQueue, WeightedGraph} from "./dataStructures/dijkstrasAlgorithm";
+// import { DoublyLinkedList } from "./dataStructures/doublyLinkedList";
+// import { fib_memo, fib_table } from "./dataStructures/dynamicProgramming";
+// import { Graph } from "./dataStructures/graphTraversal";
+// import { HashTable } from "./dataStructures/hashTables";
+// import { PriorityQueue } from "./dataStructures/dijkstrasAlgorithm";
+// import { Queue } from "./dataStructures/queue";
+// import { SinglyLinkedList } from "./dataStructures/singlyLinkedList";
+// import { Stack } from "./dataStructures/stacks";
+
+import "./App.css";
 function App() {
   // Question
   const question = null;
   const question2 = null;
+  
   // Playground
-  const numbers = [1, 2, 3, 1, 1, 3];
-  const numIdenticalPairs = (nums) => {
-    const map = {};
-    let count = 0;
 
-    for (const number of nums) {
-      if (map[number]) {
-        count += map[number];
-        map[number] += 1;
-      } else {
-        map[number] = 1;
-      }
-    }
-    return count;
-  };
-
-  const value = numIdenticalPairs(numbers);
+  const value = null;
 
   return (
     <div className='app'>
@@ -62,7 +64,7 @@ function App() {
         <p>{question2}</p>
       </div>
       <div className='note'>
-        <textarea className='textarea' placeholder='Pseudocode...' autofocus />
+        <textarea className='textarea' placeholder='Pseudocode...' autoFocus />
       </div>
       <div className='answer'>
         <p>

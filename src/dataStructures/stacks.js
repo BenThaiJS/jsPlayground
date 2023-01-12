@@ -5,14 +5,14 @@ a LIFO data structure
 The last element added to the stack will be the first element removed from the stack
 */
 
-class Node {
+export class Node {
   constructor(value) {
     this.value = value;
     this.next = null;
   }
 }
 
-class Stack {
+export class Stack {
   constructor() {
     this.first = null;
     this.last = null;

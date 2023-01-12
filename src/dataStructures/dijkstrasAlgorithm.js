@@ -2,7 +2,7 @@
 /*
   finds the shortest path between 2 vertices on a graph
 */
-class Node {
+export class Node {
     constructor(value, priority) {
       this.value = value;
       this.priority = priority;
@@ -10,7 +10,7 @@ class Node {
     }
   }
 
-  class PriorityQueue {
+export class PriorityQueue {
     constructor() {
       this.values = [];
     }
@@ -73,7 +73,7 @@ class Node {
     }
   }
 
-  class WeightedGraph {
+  export class WeightedGraph {
     constructor() {
       this.adjacencyList = {};
     }

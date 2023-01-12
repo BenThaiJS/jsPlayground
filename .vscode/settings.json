@@ -1,3 +1,6 @@
 {
-  "cSpell.words": ["Leetcode"]
+  "cSpell.words": [
+    "Leetcode"
+  ],
+  "editor.formatOnSave": true
 }

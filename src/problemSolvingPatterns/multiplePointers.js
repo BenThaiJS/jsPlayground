@@ -9,7 +9,7 @@ very efficient for solving problems with minimal space complexity as well
 */
 
 
-function sumZero(arr) {
+export function sumZero(arr) {
   let left = 0;
   let right = arr.length - 1;
   while (left < right) {

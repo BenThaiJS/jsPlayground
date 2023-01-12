@@ -6,7 +6,7 @@ directed graph
 */
 
 
-class Graph {
+export class Graph {
     constructor() {
       this.adjacencyList = {};
     }

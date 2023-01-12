@@ -2,7 +2,7 @@
 in a maxBinaryHeap, parent nodes are always larger than child nodes. In a 
 MinBinaryHeap, parent nodes are always smaller than child nodes */
 
-class MaxBinaryHeap {
+export class MaxBinaryHeap {
     constructor() {
       this.values = [];
     }
